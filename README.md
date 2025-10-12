@@ -69,7 +69,15 @@ HTTPS_PORT=443
 # Home network auto port forwarding (disable on VPS/servers)
 UPNP_ENABLED=false
 ```
-> 💡 Note:If you're not running this on a VPS or remote server, set UPNP_ENABLED=true
+📝 **Edit these values before saving:**
+- `NODE_SOLANA_PUBLIC_KEY` → Enter your **Solana wallet address** for earnings  
+- `NODE_NAME` → Enter **any name** for your node (e.g., `pipe-node-01`)  
+- `NODE_EMAIL` → Enter your **own Gmail**  
+- `NODE_LOCATION` → Enter your **VPS or server location** (e.g., `Frankfurt, Germany`)
+
+💾 **To save and exit the file:**
+- Press CTRL + O → then hit Enter (to save)
+- Press CTRL + X (to exit Nano editor)
 
 ## 🚀 5. Run the Node
 
@@ -124,9 +132,11 @@ sudo systemctl stop pipe
 sudo systemctl restart pipe
 ```
 
+---
+
 ## 📢 Community & Support
 
-Stay connected and get updates:
+- Stay connected and get updates:
 
 💬 Telegram: [kind_cr](https://t.me/kind_cr)
 
