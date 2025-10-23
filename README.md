@@ -45,6 +45,7 @@ sudo ufw status verbose
 
 ### Create a new file named .env inside /opt/pipe:
 ```bash
+apt install nano
 nano /opt/pipe/.env
 ```
 ### Paste the following and edit as per your setup:
